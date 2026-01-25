@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <!-- Remote repositories definition -->
+  <remote name="github" fetch="https://github.com"/>
+
+  <project name="zaqwes8811/ktools" revision="main" remote="github" path="firmware-builder"/>
+  <project name="zaqwes8811/openwrt-aio3568j" revision="v24.10.5-fork" remote="github" path="bsp"/>
+
+
+  <project name="hedge-in-fog/embedded-tests" revision="main" remote="github" path="tests"/>
+  <project name="hedge-in-fog/embedded-docs" revision="main" remote="github" path="docs"/>
+</manifest>
