@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+  <!-- Remote repositories definition -->
+  <remote name="github" fetch="https://github.com"/>
+
+  <!-- Upstream Yocto & OpenEmbedded Projects -->
+  <project name="zaqwes8811/ktools" revision="main" remote="github" path="firmware-builder"/>
+  <project name="openwrt/openwrt" revision="main" remote="github" path="openwrt_src"/>
+</manifest>
